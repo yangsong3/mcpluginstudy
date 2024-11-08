@@ -1,0 +1,7 @@
+name: studyplugin
+version: '1.0-SNAPSHOT'
+main: org.mukyang.studyplugin.Studyplugin
+api-version: '1.21'
+commands:
+  menu:
+    description: open menu(gui)
