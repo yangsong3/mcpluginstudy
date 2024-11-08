@@ -8,6 +8,8 @@ public final class Studyplugin extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         getLogger().info("플러그인 시작");
+
+        getServer().getPluginManager().registerEvents(new JobEventListener(),this);
     }
 
     @Override
