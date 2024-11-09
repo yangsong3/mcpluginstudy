@@ -38,7 +38,33 @@ public class PlayerData {
         experience += amount;
         if (experience >= level * 100) {
             experience = 0;
-            level ++;
+            level++;
         }
+    }
+
+    public void setJob(PlayerJob job) {
+        this.job = job;
+        this.level = 1;
+        this.experience = 0;
+    }
+
+    //레벨별 능력치 보너스 부여
+    //사냥꾼
+    public int getAttackBonus() {
+        return job == PlayerJob.HUNTER ? level * 2 : 0;
+    }
+
+    //농부
+    public int getHarvestBonus() {
+        return job == PlayerJob.FARMER ? level : 0;
+    }
+
+    //광부
+    public double getMiningSpeedBonus() {
+        return job == PlayerJob.MINER ? 1.0 + (level * 0.1) : 1.0;
+    }
+
+    public int getMiningAmountBonus() {
+        return job == PlayerJob.MINER ? level : 0;
     }
 }
