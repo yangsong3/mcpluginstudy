@@ -9,3 +9,9 @@ commands:
   checkstatus:
     description: 다른 플레이어의 직업, 레벨, 경험치를 확인합니다.
     usage: /checkstatus <플레이어>
+  scoreboard:
+    description: 스코어보드 출력
+    usage: /scoreboard
+  enhance:
+    description: 강화 시스템
+    usage: /enhance <재료>

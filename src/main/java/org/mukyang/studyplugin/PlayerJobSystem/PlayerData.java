@@ -1,4 +1,4 @@
-package PlayerJobSystem;
+package org.mukyang.studyplugin.PlayerJobSystem;
 
 import org.bukkit.entity.Player;
 

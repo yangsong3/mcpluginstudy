@@ -1,7 +1,7 @@
 package org.mukyang.studyplugin.command;
 
-import PlayerJobSystem.PlayerData;
-import PlayerJobSystem.PlayerJob;
+import org.mukyang.studyplugin.PlayerJobSystem.PlayerData;
+import org.mukyang.studyplugin.PlayerJobSystem.PlayerJob;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
