@@ -1,6 +1,6 @@
 name: studyplugin
 version: '${version}'
-main: org.mukyang.studyplugin.Studyplugin
+main: org.mukyang.studyplugin.main.Studyplugin
 api-version: '1.21'
 commands:
   setjob:
@@ -15,3 +15,5 @@ commands:
   enhance:
     description: 강화 시스템
     usage: /enhance <재료>
+  menu:
+    description: open the custom GUI
